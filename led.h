@@ -4,6 +4,8 @@
 // 用于指示设备状态
 enum {
     INIT,
+    SMART_CONFIG,
+    BEGIN_CONNECT_WIFI,
     CONNECTED_WIFI,
     CLIENT_ACCEPTED,
     DATA_INOUT,
